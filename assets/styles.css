@@ -1,1 +1,11 @@
+.TextMain {
+  font-family: "Gotham Light", Sans-serif;
+  letter-spacing: -1.5px;
+  color: #737373;
+}
 
+.TextGreen {
+  font-family: "Gotham Light", Sans-serif;
+  letter-spacing: -1.5px;
+  color: #8EA557;
+}
