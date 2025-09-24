@@ -46,10 +46,16 @@ main .container {
 }
 
 footer {
-  background: #ffffff;
+  background-color: #8FA455;
   border-top: 1px solid #ddd;
   text-align: center;
   padding: 15px 0;
+}
+
+.TextWhite {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5px;
+  color: #ffffff;
 }
 
 .TextMain {
