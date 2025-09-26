@@ -20,6 +20,7 @@ body {
 }
 
 header {
+  background: ffffff;
   grid-area: header;
 }
 
