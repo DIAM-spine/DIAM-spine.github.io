@@ -43,18 +43,21 @@ footer {
 }
 
 .TextWhite {
+  text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.5px;
   color: #ffffff;
 }
 
 .TextMain {
+  text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.5px;
   color: #737373;
 }
 
 .TextGreen {
+  text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.5px;
   color: #8EA557;
