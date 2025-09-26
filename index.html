@@ -24,6 +24,10 @@
       <a class="TextMain">Подпункт 3</a>
     </details>
 
+    <button onclick="changeText('Привет, это первая страница!')">Текст 1</button>
+    <button onclick="changeText('А вот второй текст')">Текст 2</button>
+    <button onclick="changeText('И наконец третий вариант')">Текст 3</button>
+
     <details style="padding-bottom: 10px;">
       <summary class="TextGreen" style="font-size: 1.5em; font-weight: bold;">Пункт 2</summary>
       <a class="TextMain">Подпункт 1</a>
@@ -39,7 +43,7 @@
     </details>
   </div>
   <!-- Основная часть -->
-  <main>
+  <main id="content>
     
   </main>
 
@@ -56,4 +60,5 @@
       <p class="TextWhite">Информация для нижней части 3.</p>
   </footer>
 </body>
+  <script> function changeText(newText) { document.getElementById('content').innerHTML = newText; } </script>
 </html>
