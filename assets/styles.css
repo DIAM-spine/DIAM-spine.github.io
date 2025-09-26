@@ -30,6 +30,7 @@ main {
 }
 
 footer {
+  padding: 30px;
   grid-area: footer;
   background-color: #8FA455;
 }
