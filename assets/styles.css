@@ -22,6 +22,7 @@ body {
 header {
   padding: 10px;
   display: flex;
+  justify-content: space-between;
   background: #ffffff;
   grid-area: header;
 }
