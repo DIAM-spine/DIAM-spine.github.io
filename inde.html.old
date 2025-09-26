@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>DIAM spine</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header>
+    <div class="container">
+      <h1 class="TextGreen">
+        <img src="/favicon.ico" alt="icon" style="width: 54px;height: 54px;vertical-align:middle;margin-right:8px;"> DIAM spine
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#">Кнопка 1</a></li>
+          <li><a href="#">Кнопка 2</a></li>
+          <li><a href="#">Кнопка 3</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Основная часть -->
+  <main>
+    <section class="container">
+      <!-- Формат 1 -->
+      <h2 class="TextGreen">Заголовок</h2>
+      <p class="TextMain">Текст текст текст</p>
+    </section>
+      <!-- Формат 2 -->
+    <section class="container">
+      <details>
+        <summary class="TextGreen" style="font-size: 1.5em; font-weight: bold;">Заголовок</summary>
+        <p class="TextMain">Раскрывающийся текст</p>
+      </details>
+    </section>
+
+    <!-- Формат 3 -->
+    <section class="container">
+      <h2 class="TextGreen">Список</h2>
+      <ul>
+        <li class="TextMain">Пункт 1</li>
+        <li class="TextMain">Пункт 2</li>
+        <li class="TextMain">Пункт 3</li>
+      </ul>
+    </section>
+    
+  </main>
+
+  <!-- Нижняя часть -->
+  <footer>
+    <div class="container">
+      <p class="TextWhite">Информация для нижней части 1.</p>
+      <p class="TextWhite">Информация для нижней части 2.</p>
+      <p class="TextWhite">Информация для нижней части 3.</p>
+    </div>
+  </footer>
+</body>
+</html>
