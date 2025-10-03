@@ -72,10 +72,32 @@
 </body>
   <script> 
     function changeText(element) {
-      const myText = "Новый текст";
-      document.getElementById('content').innerHTML = myText; 
+      const elementsText = {
+        e1: "Пункт 1 текст",
+          e1e1: "Пункт 1 Подпункт 1 текст",
+          e1e2: "Пункт 1 Подпункт 2 текст",
+          e1e3: "Пункт 1 Подпункт 3 текст",
+        e2: "Пункт 2 текст",
+          e2e1: "Пункт 2 Подпункт 1 текст",
+          e2e2: "Пункт 2 Подпункт 2 текст",
+          e2e3: "Пункт 2 Подпункт 3 текст",
+        e3: "Пункт 3 текст",
+          e3e1: "Пункт 3 Подпункт 1 текст",
+          e3e2: "Пункт 3 Подпункт 2 текст",
+          e3e3: "Пункт 3 Подпункт 3 текст",
+        e4: "Пункт 4 текст",
+          e4e1: "Пункт 4 Подпункт 1 текст",
+          e4e2: "Пункт 4 Подпункт 2 текст",
+          e4e3: "Пункт 4 Подпункт 3 текст",
+        e5: "Пункт 5 текст",
+          e5e1: "Пункт 5 Подпункт 1 текст",
+          e5e2: "Пункт 5 Подпункт 2 текст",
+          e5e3: "Пункт 5 Подпункт 3 текст"
+      };
+      document.getElementById('content').innerHTML = elementsText[element]; 
     } 
   </script>
+  
   <script>
     window.onload = function() {
       const params = new URLSearchParams(window.location.search);
