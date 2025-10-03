@@ -70,12 +70,17 @@
       <p class="TextWhite">Информация для нижней части 3.</p>
   </footer>
 </body>
-  <script> function changeText(newText) { document.getElementById('content').innerHTML = newText; } </script>
+  <script> 
+    function changeText(element) {
+      const myText = "Новый текст";
+      document.getElementById('content').innerHTML = myText; 
+    } 
+  </script>
   <script>
     window.onload = function() {
       const params = new URLSearchParams(window.location.search);
-      if (params.has("text")) {
-        changeText(params.get("text"));
+      if (params.has("element")) {
+        changeText(params.get("element"));
       }
     }
   </script>
