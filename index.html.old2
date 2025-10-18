@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>DIAM spine</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header>
+      <a href="/" class="TextGreen" style="font-size: 36px;"> <img src="/favicon.ico" alt="icon" style="width: 54px;height: 54px;vertical-align:middle;margin-right:8px;"> DIAM spine </a>
+      <div style="display: flex; align-items: center;">
+        <a style="padding: 10px;" class="TextMain" href="#">Кнопка 1</a>
+        <a style="padding: 10px;" class="TextMain" href="#">Кнопка 2</a>
+        <a style="padding: 10px;" class="TextMain" href="#">Кнопка 3</a>
+      </div>
+  </header>
+
+  <div class="left" style="padding: 30px; background: #f4f4f4;">
+    <details style="padding-bottom: 10px;">
+      <summary onclick="changeText('e1')" class="TextGreen" style="font-size: 1.2em; font-weight: bold; cursor: pointer;">История развития концепции динамической стабилизации и современное состояние вопроса.</summary>
+      <p style="cursor: pointer;" onclick="changeText('e1e1')" class="TextMain">Первые динамические импланты в вертебрологии.</p>
+      <p style="cursor: pointer;" onclick="changeText('e1e2')" class="TextMain">Как давно это было… или первый опыт врачей РФ в динамической стабилизации.</p>
+      <p style="cursor: pointer;" onclick="changeText('e1e3')" class="TextMain">Современный подход к разработке и внедрению динамических стабилизирующих систем.</p>
+    </details>
+
+    <details style="padding-bottom: 10px;">
+      <summary onclick="changeText('e2')" class="TextGreen" style="font-size: 1.2em; font-weight: bold; cursor: pointer;">Применение межостистых динамических стабилизирующих систем в практике хирургов вертебрологов в РФ.</summary>
+      <p style="cursor: pointer;" onclick="changeText('e2e1')" class="TextMain">Научные публикации в журналах.</p>
+      <p style="cursor: pointer;" onclick="changeText('e2e2')" class="TextMain">Диссертационные работы.</p>
+      <p style="cursor: pointer;" onclick="changeText('e2e3')" class="TextMain">Клинические примеры.</p>
+      <p style="cursor: pointer;" onclick="changeText('e2e4')" class="TextMain">Субъективная оценка информации и критическое мышление. Ограничения исследований и статистика.</p>
+    </details>
+
+    <details style="padding-bottom: 10px;">
+      <summary onclick="changeText('e3')" class="TextGreen" style="font-size: 1.2em; font-weight: bold; cursor: pointer;">Показания к применению ДИАМ, биомеханические эффекты и ограничения методики.</summary>
+      <p style="cursor: pointer;" onclick="changeText('e3e1')" class="TextMain">Показания к имплантации ДИАМ.</p>
+      <p style="cursor: pointer;" onclick="changeText('e3e2')" class="TextMain">Биомеханические эффекты DIAM.</p>
+      <p style="cursor: pointer;" onclick="changeText('e3e3')" class="TextMain">Ограничения методики.</p>
+    </details>
+
+    <details style="padding-bottom: 10px;">
+      <summary onclick="changeText('e4')" class="TextGreen" style="font-size: 1.2em; font-weight: bold; cursor: pointer;">Нюансы хирургической техники.</summary>
+      <p style="cursor: pointer;" onclick="changeText('e4e1')" class="TextMain">Классическая методика имплантации ДИАМ.</p>
+      <p style="cursor: pointer;" onclick="changeText('e4e2')" class="TextMain">Возможные адаптивные модификации техники имплантации. Монолатеральный доступ.</p>
+      <p style="cursor: pointer;" onclick="changeText('e4e3')" class="TextMain">Особенности имплантации межостистого имплантата ДИАМ на уровне L5-S1.</p>
+    </details>
+
+    <details style="padding-bottom: 10px;">
+      <summary onclick="changeText('e5')" class="TextGreen" style="font-size: 1.2em; font-weight: bold; cursor: pointer;">Модель «Идеального» пациента.</summary>
+      <p style="cursor: pointer;" onclick="changeText('e5e1')" class="TextMain">Мобильное приложение "Поддержка принятия врачебного решения относительно модели пациента для межостистой динамической стабилизации".</p>
+      <p style="cursor: pointer;" onclick="changeText('e5e2')" class="TextMain">«Неформальные» рекомендации экспертов.</p>
+      <p style="cursor: pointer;" onclick="changeText('e5e3')" class="TextMain">Клинические примеры.</p>
+    </details>
+  </div>
+  <!-- Основная часть -->
+  <main style="padding: 30px;">
+    <div id="content">
+      
+  <p><strong>Фундаментальная классификация методов фиксации позвоночно-двигательного сегмента, основанная на различных биомеханических принципах и целях оперативного лечения.</strong></p>
+<p><strong>Ригидный фиксация</strong></p>
+<p>Цель: стабильная фиксация позвоночно-двигательного сегмента на период формирования спондилодеза.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/st/st1.png?raw=true" alt="" width="240" height="217" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong><em>Полуригидная фиксация</em></strong></p>
+<p>Цель: стабильная фиксация позвоночно-двигательного сегмента на период формирования спондилодеза у пациентов с скомпрометированным качеством костной ткани.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/st/st2.png?raw=true" alt="" width="535" height="236" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Процесс образование костной ткани в ходе формирования спондилодеза активнее происходит под умеренной компремирующей нагрузкой, чем при полном шунтировании нагрузки с области костеобразования</p>
+<p>&nbsp;</p>
+<p>На межтеловой имплант оказывается умеренная осевая нагрузка, что способствует</p>
+<ul>
+<li>его быстрой интеграции в межтеловой блок за счет эффективно протекающих процессов перестройки остеокондуктивного материала, импактированного в имплант,</li>
+<li>и уменьшения резорбции костной ткани вокруг опорных элементов.</li>
+</ul>
+<p>&nbsp;</p>
+<p>Полуригидный стержень позволяет сохранить малый объем движений за счет своей упругой деформации, однако, обеспечивает стабильность сегмента при флексии, экстензии, ротации и осевой нагрузке, как и титановый стрежень.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong><em>Динамическая стабилизация - метод, способный улучшить подвижность позвоночно-двигательного сегмента и перераспределить нагрузку в его пределах без жесткой фиксации сегмента</em></strong></p>
+<p><strong><em>(Sengupta DK. Dynamic stabilization devices in the treatment of low back pain. Orthop</em></strong> <strong><em>Clin</em></strong> <strong><em>North</em></strong> <strong><em>Am</em></strong><strong><em> 2004;35:43&ndash;56).</em></strong></p>
+<p><strong><em>&nbsp;</em></strong></p>
+<p><strong><em>&nbsp;</em></strong></p>
+<p><strong><em>&nbsp;</em></strong></p>
+<p>Цель: без жесткой фиксации восстанавливает правильную биомеханику позвоночно-двигательного сегмента путем перераспределения нагрузки в его пределах (за счет коррекции положения центра ротации) и ограничения патологически направленных и высокоамплитудных движений.</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Типы динамических имплантатов:</strong></p>
+<ul>
+<li>межостистые имплантаты (ДИАМ)</li>
+<li>междужковые имплантаты</li>
+<li>транспедикулярные системы с динамическим стержнем</li>
+<li>протезы межпозвонковых дисков</li>
+<li>системы протезирования фасеточных суставов</li>
+</ul>
+<p>&nbsp;</p>
+<p>Neurosurg Focus 22 (1):E3, 2007<br /> Classification of posterior dynamic stabilization devices.</p>
+<p>Paul Khoueir, M.D., K. Anthony Kim, M.D., and Michael Y. Wang, M.D.</p>
+<p>Department of Neurosurgery, University of Southern California, Los Angeles, California</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Движения функционального позвоночного сегмента определяются положением центра ротации.</strong></p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/st/st3.png?raw=true" alt="" width="647" height="200" /></p>
+<p><strong>Смещение центра ротации - это реакция организма, позволяющая уравновесить моменты и таким образом обеспечить перераспределение нагрузки.</strong></p>
+<p>&nbsp;</p>
+<p><strong>Типы динамических имплантатов:</strong></p>
+<ul>
+<li>межостистые имплантаты (ДИАМ)</li>
+<li>междужковые имплантаты</li>
+<li>транспедикулярные системы с динамическим стержнем (с динамической вставкой)</li>
+<li>протезы межпозвонковых дисков</li>
+<li>системы протезирования фасеточных суставов</li>
+</ul>
+<p>&nbsp;</p>
+<p>межостистые имплантаты</p>
+<p>&nbsp;</p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/st/st4.png?raw=true" alt="" width="642" height="387" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>транспедикулярные системы с динамическим стержнем (с динамической вставкой)</p>
+<p>&nbsp;</p>
+<p><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/st/st5.png?raw=true" alt="" width="638" height="412" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul>
+<li>протезы межпозвонковых дисков</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/st/st6.png?raw=true" alt="" width="270" height="202" /></p>
+<p>&nbsp;</p>
+<ul>
+<li>системы протезирования фасеточных суставов</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/st/st7.png?raw=true" alt="" width="571" height="201" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+      
+    </div>
+  </main>
+
+  <div class="right" style="background: #f4f4f4; padding-left: 15px;">
+    <img src="/assets/images/booklet.png" alt="booklet" style="vertical-align:middle;">
+    <img src="/assets/images/booklet.png" alt="booklet" style="vertical-align:middle;">
+    <img src="/assets/images/image.png" alt="image" style="vertical-align:middle;">
+  </div>
+
+  <!-- Нижняя часть -->
+  <footer>
+      <p class="TextWhite">Профессиональные информационные ресурсы.</p>
+      <p class="TextWhite">Информация предназначена для специалистов здравоохранения.</p>
+      <p class="TextWhite">Представленный на сайте материал является информационным, не представляет собой клинические рекомендации и не может служить основанием для выбора тактики лечения пациента.</p>
+  </footer>
+</body>
+  <script> 
+    function changeText(element) {
+      const elementsText = {
+        e1: ``,
+          e1e1: 
+            `
+            
+<p>Dr. Fred L. Knowles<em> 1957 год</em></p>
+<p>как временная стабилизация сегмента (ожидалась резорбция)</p>
+<p>&nbsp;</p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e1e1/e1e1_1.png?raw=true" alt="" width="183" height="170" /></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e1e1/e1e1_2.png?raw=true" alt="" width="624" height="374" /></strong></p>
+<p><strong><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e1e1/e1e1_3.png?raw=true" alt="" width="614" height="261" /></strong></p>
+<p>&nbsp;</p>
+<p><strong>В 1966 году </strong><strong>Fernstrom</strong></p>
+<p><strong>191 имплантаций 125 пациентам </strong></p>
+<p><strong>Стальные шары диаметром 6-10 мм (на 1 мм больше высоты диска)</strong></p>
+<p><strong>&nbsp;Ближайшие результаты очень хорошие.</strong></p>
+<p><strong>Через 4-7 лет у 88% оперируемых потеря высоты м/т промежутка, миграция имплантата,&nbsp; возобновление дегенеративных изменений, боль и т.д.</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e1e1/e1e1_4.png?raw=true" alt="" width="601" height="321" /></p>
+<p>&nbsp;</p>
+<p>имплант "разгружает" фасеточные суставы</p>
+<p>уменьшает внутридисковое давление</p>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>"soft" interspinous spacer&nbsp; &nbsp; &nbsp;</td>
+<td><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e1e1/e1e1_5.png?raw=true" alt="" width="244" height="254" />&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+            
+            `,
+              
+          e1e2: ``,
+          e1e3: ``,
+        e2:` <div style="font-size: 1.5em;"><p>В РФ применение систем для динамической межостистой стабилизации началось в 2007 году.</p>
+<p>&nbsp; &nbsp; &nbsp;Первыми были выполнены операции в Центральном Институте Травматологии Ортопедии им. Н.Н. Приорова профессором <strong>Ветрилэ Степаном Тимофеевичем</strong> и</p>
+<blockquote>
+<p>&nbsp; &nbsp; &nbsp;руководителем отделения нейроортопедии Новосибирского Научно-Исследовательского Института Травматологии и Ортопедии <strong>Симоновичем Александром Евгеньевичем</strong>.</p>
+</blockquote></div>`,
+          e2e1: ``,
+          e2e2: `Алдатов Тимур Сергеевич. Межостистая динамическая стабилизация у пациентов с комбинированным дегенеративным стенозом поясничного отдела позвоночника на фоне остеопороза.`,
+          e2e3: ``,
+          e2e4: ``,
+        e3: `Первая имплантация системы ДИАМ была произведена в 1996 году, и к настоящему времени уже выполнены более 200 000 операций во всем мире, имеется достаточная база научных статей с изучением отдаленных результатов.`,
+          e3e1:
+            `
+<p><strong><em>Показания к имплантации ДИАМ</em></strong></p>
+<p>Различные клинические и морфологические формы дегенеративного поражения поясничного отдела позвоночника:</p>
+<ul>
+<li>дегенеративный стеноз позвоночного канала</li>
+<li>фораминальный стеноз</li>
+<li>функциональный ретролистез</li>
+<li>артропатия фасеточных суставов</li>
+<li>грыжа диска с признаками сегментарной трансляционной нестабильности</li>
+<li>протезирование задней опорной колонны позвоночника для поддержки межпозвонкового диска</li>
+<li>Бааструп-синдром (&laquo;целующиеся остистые отростки&raquo;)</li>
+<li>дегенеративные заболевания поясничного отдела позвоночника в сочетании с гиперлордозом</li>
+</ul>
+<p>&nbsp;</p>
+<p>преходящие боли и/или предупреждение развития и прогрессирования дегенеративных изменений в сегментах, смежных с зоной состоявшегося или планируемого спондилодеза</p>
+<p>уменьшение выраженности болевого синдрома в поясничной области у пациентов, которым невозможно выполнение иного оперативного вмешательства</p>
+            
+            `,
+          e3e2: 
+            `
+
+<p>&nbsp;</p>
+<table style="width: 675.302px;">
+<tbody>
+<tr>
+<td style="width: 198px;"><strong><strong>Б</strong></strong><strong>иомеханические эффекты DIAM</strong>, которые могут действовать стабилизирующее на пояснично-крестцовый отдел позвоночника и положительно влиять на клинические симптомы.<strong><strong><br /></strong></strong></td>
+<td style="width: 136.302px;"><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e3e2/e3e2_1.png?raw=true" alt="" width="266" height="181" /></td>
+</tr>
+</tbody>
+</table>
+<p>перераспределяет нагрузку между позвонками позвоночно-двигательного сегмента, восстанавливая их правильную биомеханику за счет смещения центра ротации</p>
+<p>восстанавливает физиологический объем движений, ограничивает патологически направленное движение (чрезмерное разгибание)</p>
+<p>оказывает амортизирующее, &laquo;шокоабсорбирующее действие&raquo; при осевой нагрузке на позвоночник</p>
+<p>уменьшает нагрузки на фасеточные суставы, формирует правильную линию сустава за счет восстановления конгруэнтности суставных поверхностей</p>
+<p>восстанавливает физиологическое напряжение активных и пассивных стабилизаторов заднего опорного комплекса ПДС</p>
+<p>расширят фораминальное отверстие, увеличивает диаметр позвоночного канала, уменьшает компрессию невральных структур</p>
+<p>уменьшает давление в межпозвонковом диске, особенно в области задней части замыкательных пластин смежных позвонков</p>
+<p>за счет дополнительной фиксации лавсановыми лентами, он стабилизирует пораженный сегмент, в том числе ограничивает и чрезмерное сгибание пояснично-крестцового отдела позвоночника, не лишая его всей подвижности.</p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e3e2/e3e2_2.png?raw=true" alt="" width="220" height="358" /></p>
+<p>ДИАМ оказывает эффекты локально, на уровне имплантации и не имеет никакого значимого эффекта на смежные уровни.</p>
+            
+            `,
+          e3e3: "",
+        e4: 
+          `
+          
+<p>&nbsp;</p>
+<p>Восстанавливая правильный баланс задних отделов позвоночного столба, обеспечивая при этом стабильность, амортизируя нагрузку, сохраняет анатомические структуры и нормальную функцию ПДС.</p>
+<p>&nbsp;</p>
+<p>Возможные хирургические доступы для имплантации ДИАМа</p>
+<ul>
+<li><strong>Медиальный билатеральный доступ, сохраняющий надостистую связку</strong></li>
+<li><strong>Монолатеральный доступ</strong></li>
+</ul>
+<p>DIAM сочетает в себе принципы раннего вмешательства, минимальной инвазивности и динамической стабилизации, <br /> декомпрессия, завершаемая имплантацией ДИАМ, снижает частоту рецидивов.</p>
+<p>&nbsp;</p>
+<p>Для имплантации ДИАМ нет необходимости в резекции костных структур, что сокращает время операции, не создает опасности или сложности для последующих и ревизионных хирургических вмешательств, если необходимость в таковых возникает.</p>
+<p>Для имплантации ДИАМ разработан высокотехнологичный компактный удобный инструментарий.</p>
+<p>&nbsp;</p>
+          
+          `,
+          e4e1: 
+          `
+          
+<p>&nbsp;</p>
+<p>Основные этапы</p>
+<ul>
+<li>доступ</li>
+<li>декомпрессионный этап оперативного вмешательства</li>
+<li>подготовка ложа для импланта (кусачки большие и малые)</li>
+<li>скелетирование контрлатеральных участков остистых отростков и дужек</li>
+</ul>
+<p>(правосторонний и левосторонний распатор)</p>
+<ul>
+<li>дистракция (дистрактор)</li>
+<li>5: подбор размера импланта по шаблонам (шаблоны)</li>
+<li>внедрение импланта (инсертер и импакторы)</li>
+<li>фиксация импланта (клипсы и инструмент для их фиксации)</li>
+<li>закрытие раны</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Положение пациента и доступ</strong></p>
+<p><strong>Обычно пациент в положении на животе</strong></p>
+<p><strong>Может применяться коленно-локтевое положение</strong></p>
+<p><strong>Разрез срединный или парамедианный</strong></p>
+<p><strong>Для установки импланта на одном уровне</strong></p>
+<p><strong>достаточно 4-5 см кожного разреза</strong></p>
+<p><strong>Доступ может быть одно- или двусторонний</strong></p>
+<p><strong>Установка импланта возможна на одном или нескольких уровнях</strong></p>
+<p><strong>Рекомендуется максимально сохранять задний связочный аппарат</strong></p>
+<p>&nbsp;</p>
+<p><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e4e1/e4e1_1.png?raw=true" alt="" width="212" height="378" /></p>
+<p>&nbsp;</p>
+<p><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e4e1/e4e1_2.png?raw=true" alt="" width="605" height="260" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>скелетирование контрлатеральных участков оснований остистых отростков</p>
+<p>Изогнутый распатор вводится в межостистое пространство, чтобы отсепарировать мягкие ткани от остистого отростка и дужки, что обеспечивает правильное позиционирование и плотное прилегание крыльев импланта к костным структурам.</p>
+<p>Межостистое пространство препарируется полностью до желтой связки.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Дистракция</p>
+<p>Важные моменты:</p>
+<p>Во время механической дистракции нельзя прикладывать чрезмерное усилие, которое может превысить прочностные свойства кости .</p>
+<p>Если междужковый промежуток высоко ригидный, допускается краевая резекция основания остистого отростка для предупреждения его перелома.</p>
+<p>В случаях перекрывания и гипертрофии пластинчатой части дужек ("целующиеся" дужки) рекомендуется предварительная краевая резекция.</p>
+<p>Точно так же в случаях "целующихся" остистых отростков производится резекция их гипертрофированных частей.</p>
+<p>Междужковый дистрактор устанавливается максимально глубоко к основанию остистых отростков.</p>
+<p>Во время дистракции замыкательные пластины должны стать параллельными.</p>
+<p>&nbsp;</p>
+<p><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e4e1/e4e1_3.png?raw=true" alt="" width="606" height="275" /></p>
+<p>&nbsp;</p>
+<p>подбор размера импланта по шаблонам</p>
+<p>Когда есть сомнение в выборе размера импланта, выбирается размер, который не будет создавать локального кифоза и/или увеличивать риск&nbsp; перелома остистого отростка. Это гарантирует оптимальное восстановление сагиттального профиля поясничного отдела и способствует достижению оптимального клинического результата.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e4e1/e4e1_4.png?raw=true" alt="" width="606" height="267" /></p>
+<p>&nbsp;</p>
+<p><strong>При сомнениях выбирать меньший размер </strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>внедрение импланта</p>
+<p>&nbsp;</p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e4e1/e4e1_5.png?raw=true" alt="" width="604" height="289" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e4e1/e4e1_6.png?raw=true" alt="" width="238" height="271" /></p>
+<p>&nbsp;</p>
+<p>В момент введения инсертера в межостистый промежуток временно можно несколько усилить степень дистракции для облегчения процедуры</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>точное позиционирование импланта с помощью унилатерального и билатерального импактора</p>
+<p>&nbsp;</p>
+<p>&nbsp;<img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e4e1/e4e1_7.png?raw=true" alt="" width="599" height="226" /></p>
+<p>&nbsp;</p>
+<p>фиксация импланта</p>
+<p>&nbsp;</p>
+<p><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e4e1/e4e1_8.png?raw=true" alt="" width="605" height="314" /></p>
+<p>&nbsp;</p>
+<p>DIAM установлен</p>
+<p>&nbsp;</p>
+<p><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e4e1/e4e1_9.png?raw=true" alt="" width="606" height="587" /></p>
+<p>&nbsp;</p>
+          
+          `,
+          e4e2: "",
+          e4e3:
+          `
+
+<p><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e4e3/e4e3_1.png?raw=true" alt="" width="139" height="204" /></p>
+<p>&nbsp;</p>
+<p><img src="https://github.com/DIAM-spine/DIAM-spine.github.io/blob/main/assets/images/e4e3/e4e3_2.png?raw=true" alt="" width="608" height="342" /></p>
+          
+          `,
+        e5: "Все врачи в РФ, занимающиеся хирургией позвоночника, знакомы с методикой межостистой динамической стабилизации.",
+          e5e1:
+          `
+
+<p><strong>Рассмотрите вопрос о возможности именно для Вашего пациента сохранить движения в позвоночнике, акцентируя внимание на аспектах минимальной инвазивности и безопасности. </strong></p>
+<p><br /> На основании объективных критериев оцените, может именно данному пациенту будет необходимо и достаточно стабилизировать ПДС имплантатом ДИАМ, и такая тактика сможет дать лучший результат с меньшими рисками.</p>
+<p>&nbsp;</p>
+<p>Возможно, этот информационный ресурс может быть Вам полезен для акцента на критериях для выбора технологии межостистой динамической стабилизации Вашему пациенту:</p>
+<p>Мобильное приложение<br /> "Поддержка принятия врачебного решения относительно модели пациента для межостистой динамической стабилизации"</p>
+          
+          `,
+          e5e2: ``,
+          e5e3: ``
+      };
+      document.getElementById('content').innerHTML = elementsText[element]; 
+    } 
+  </script>
+  
+  <script>
+    window.onload = function() {
+      const params = new URLSearchParams(window.location.search);
+      if (params.has("element")) {
+        changeText(params.get("element"));
+      }
+    }
+  </script>
+</html>
