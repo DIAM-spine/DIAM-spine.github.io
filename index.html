@@ -394,7 +394,7 @@
           e5e2: ``,
           e5e3: ``
       };
-      const text = elementsText[element] || elementsText.StartingText;
+      const text = element in elementsText ? elementsText[element] : elementsText.StartingText;
       document.getElementById('content').innerHTML = text;
     } 
   </script>
