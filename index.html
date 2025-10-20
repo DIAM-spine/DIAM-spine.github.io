@@ -16,6 +16,7 @@
       </div>
   </header>
 
+  <!-- Левая часть -->
   <div class="left" style="padding: 30px; background: #f4f4f4;">
     <details style="padding-bottom: 10px;">
       <summary onclick="changeText('e1')" class="TextGreen" style="font-size: 1.2em; font-weight: bold; cursor: pointer;">История развития концепции динамической стабилизации и современное состояние вопроса.</summary>
@@ -53,11 +54,35 @@
       <p style="cursor: pointer;" onclick="changeText('e5e3')" class="TextMain">Клинические примеры.</p>
     </details>
   </div>
+  
   <!-- Основная часть -->
   <main style="padding: 30px;">
-    <div id="content">
-      
-  <p><strong>Фундаментальная классификация методов фиксации позвоночно-двигательного сегмента, основанная на различных биомеханических принципах и целях оперативного лечения.</strong></p>
+    <div id="content"></div>
+  </main>
+
+  <!-- Правая часть -->
+  <div class="right" style="background: #f4f4f4; padding-left: 15px;">
+    <div style=" padding-top: 20px; padding-bottom: 20px; display: flex;">
+      <img src="/assets/images/booklet1.png" alt="booklet" style="padding-bottom: 120px; padding-right: 10px; max-width: 160px; vertical-align:middle;">
+      <img src="/assets/images/booklet2.png" alt="booklet" style="padding-top: 120px; max-width: 160px; vertical-align:middle;">
+    </div>
+    <img src="/assets/images/image.png" alt="image" style="vertical-align:middle;">
+  </div>
+
+  <!-- Нижняя часть -->
+  <footer>
+      <p class="TextWhite">Профессиональные информационные ресурсы.</p>
+      <p class="TextWhite">Информация предназначена для специалистов здравоохранения.</p>
+      <p class="TextWhite">Представленный на сайте материал является информационным, не представляет собой клинические рекомендации и не может служить основанием для выбора тактики лечения пациента.</p>
+  </footer>
+</body>
+  <script> 
+    function changeText(element) {
+      const elementsText = {
+        StartingText: 
+        `
+
+<p><strong>Фундаментальная классификация методов фиксации позвоночно-двигательного сегмента, основанная на различных биомеханических принципах и целях оперативного лечения.</strong></p>
 <p><strong>Ригидный фиксация</strong></p>
 <p>Цель: стабильная фиксация позвоночно-двигательного сегмента на период формирования спондилодеза.</p>
 <p>&nbsp;</p>
@@ -147,27 +172,8 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-      
-</div>
-  </main>
-  <div class="right" style="background: #f4f4f4; padding-left: 15px;">
-    <div style=" padding-top: 20px; padding-bottom: 20px; display: flex;">
-      <img src="/assets/images/booklet1.png" alt="booklet" style="padding-right: 10px;max-width: 160px;vertical-align:middle;">
-      <img src="/assets/images/booklet2.png" alt="booklet" style="max-width: 160px;vertical-align:middle;">
-    </div>
-    <img src="/assets/images/image.png" alt="image" style="vertical-align:middle;">
-  </div>
-
-  <!-- Нижняя часть -->
-  <footer>
-      <p class="TextWhite">Профессиональные информационные ресурсы.</p>
-      <p class="TextWhite">Информация предназначена для специалистов здравоохранения.</p>
-      <p class="TextWhite">Представленный на сайте материал является информационным, не представляет собой клинические рекомендации и не может служить основанием для выбора тактики лечения пациента.</p>
-  </footer>
-</body>
-  <script> 
-    function changeText(element) {
-      const elementsText = {
+        
+        `,
         e1: ``,
           e1e1: 
             `
@@ -388,7 +394,8 @@
           e5e2: ``,
           e5e3: ``
       };
-      document.getElementById('content').innerHTML = elementsText[element]; 
+      const text = elementsText[element] || elementsText.StartingText;
+      document.getElementById('content').innerHTML = text;
     } 
   </script>
   
@@ -397,6 +404,8 @@
       const params = new URLSearchParams(window.location.search);
       if (params.has("element")) {
         changeText(params.get("element"));
+      } else {
+        changeText("StartingText");
       }
     }
   </script>
