@@ -63,8 +63,8 @@
   <!-- Правая часть -->
   <div class="right" style="background: #f4f4f4; padding-left: 15px;">
     <div style=" padding-top: 20px; padding-bottom: 20px; display: flex;">
-      <img src="/assets/images/booklet1.png" alt="booklet" style="padding-bottom: 120px; padding-right: 10px; max-width: 160px; vertical-align:middle;">
-      <img src="/assets/images/booklet2.png" alt="booklet" style="padding-top: 120px; max-width: 160px; vertical-align:middle;">
+      <img src="/assets/images/booklet1.png" onclick="changeText('BookletPat')" alt="booklet" style="padding-bottom: 120px; padding-right: 10px; max-width: 160px; vertical-align:middle;">
+      <img src="/assets/images/booklet2.png" onclick="changeText('BookletMed')" alt="booklet" style="padding-top: 120px; max-width: 160px; vertical-align:middle;">
     </div>
     <img src="/assets/images/image.png" alt="image" style="vertical-align:middle;">
   </div>
@@ -392,7 +392,35 @@
           
           `,
           e5e2: ``,
-          e5e3: ``
+          e5e3: ``,
+          BookletMed: 
+            `
+            <div style="
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+">
+    <img src="assets/images/BookletMed/BookletMed-1.png" alt="" style="
+    width: 100%;
+">
+    <img src="assets/images/BookletMed/BookletMed-2.png" alt="" style="
+    width: 100%;
+">
+    <img src="assets/images/BookletMed/BookletMed-3.png" alt="" style="
+    width: 100%;
+">
+    <img src="assets/images/BookletMed/BookletMed-4.png" alt="" style="
+    width: 100%;
+">
+    <img src="assets/images/BookletMed/BookletMed-5.png" alt="" style="
+    width: 100%;
+">
+    <img src="assets/images/BookletMed/BookletMed-6.png" alt="" style="
+    width: 100%;
+">
+</div>
+            `
       };
       const text = element in elementsText ? elementsText[element] : elementsText.StartingText;
       document.getElementById('content').innerHTML = text;
